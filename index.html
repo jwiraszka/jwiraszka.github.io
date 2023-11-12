@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title>Home Page</title>
+        <meta charset="UTF-8">
+        <meta name="Author" content="Julia Wiraszka">
+        <meta name="Description" content="Personal details page">
+        <link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen, projection">
+
+        <!-- font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@300&family=DM+Serif+Display&family=Open+Sans:wght@500&family=Yeseva+One&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+    <header id="top">
+        <div>
+        <nav id="navigation">
+            <a href="#top">About Me</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#education">Education</a>
+            <a href="#contact">Contact Me</a>
+        </nav>
+        </div>
+    </header>
+
+    <article class="aboutme" id="aboutme">
+        <div class="hidden">
+            <p>Hello, I'm</p>
+            <h1 class="name">Julia Wiraszka.</h1>
+            <p>A second year student pursuing a BSc in Computing Science at Ulster University.
+                I aspire to be a part of the technological industry and help strive for innovative
+                and affective solutions that truly impactful the world. I'm eager to learn and develop my
+                skills as further I venture into this fast-paced field, and I'm looking forward for what the future holds.</p>
+        </div>
+        <div style="margin: 350px;"></div>
+        <div class="hidden">
+            <p>My background in arts combined with my technical understanding
+                is what I believe helps me approach problem-solving with a different perspective,
+                and what I attribute my ability to make sure that my solutions are not only functional
+                but also gratifying to the user experience to.</p>
+        </div>
+    </article>
+
+    <article class="skills" id="skills">
+        <h1 class="title hidden">TECHNICAL SKILLS</h1>
+        <h3 class="subtitle hidden">PROGRAMMING LANGUAGES</h3>
+        <section>
+            <div class="element hidden">
+                <img src="images/java.jpg">
+                <p>Java</p>
+            </div>
+
+            <div class="element hidden">
+                <img src="images/python.jpg">
+                <p>Python</p>
+            </div>
+
+            <div class="element hidden">
+                <img src="images/sql.jpg">
+                <p>SQL</p>
+            </div>
+
+            <div class="element hidden">
+                <img src="images/html.jpg">
+                <p>HTML</p>
+            </div>
+
+            <div class="element hidden">
+                <img src="images/css.jpg" alt="css logo">
+                <p>CSS</p>
+            </div>
+
+            <div class="element hidden">
+                <img src="images/bash.jpg">
+                <p>Bash</p>
+            </div>
+        </section>
+    </article>
+
+    <article class="projects" id="projects">
+        <div class="content">
+            <h1 class="title hidden">PROJECTS</h1>
+            <div class="element hidden">
+                <img src="images/stock_manager.JPG" alt="css logo">
+                <div class="text">
+                    <h2>Business Stock Management Program</h2>
+                    <p class="description">This management programme uses a file containing stock data and allow the user to
+                        view and manage the available stock via a menu interface. The programme allows the user to view a summary
+                        report of all stock available, view the total stock in each length category,
+                        further visualising it via a bar chart. It also allows the user to search for a specified item, edit its stock amount
+                        and applying a discount to the highest stocked item in inventory at the time.</p>
+                    <br>
+                    <a href="https://github.com/jwiraszka/Stock_Manager">Check It Out</a>
+                </div>
+            </div>
+            <div class="element hidden">
+                <img src="images/solar_system.JPG">
+                <div class="text">
+                    <h2>Solar System Visualiser</h2>
+                    <p class="description">A solar system animation implemented through the Blender API,
+                        "bpy", aimed to visualise the orbit of the solar system. The animation is fully initialised, operated and rendered through python and showcases the
+                        orbit of the planets around the sun.</p>
+                    <br>
+                    <a href="https://github.com/jwiraszka/Solar_System_Visualiser">Check It Out</a>
+                </div>
+            </div>
+            <div class="element hidden">
+                <img src="images/chatbot.jpg" alt="css logo">
+                <div class="text">
+                    <h2>ChatBot</h2>
+                    <p class="description">A ChatBot application implemented through the use of the nltk library.
+                        Through the use of multiple external API's, the bot is able to engage in basic user interaction,
+                        is able to search wikipedia with the use of wikipedia API, tell random facts and even tell jokes.</p>
+                    <br>
+                    <a href="https://github.com/jwiraszka/ChatBot">Check It Out</a>
+                </div>
+            </div>
+            <div class="element hidden">
+                <img src="images/expense_tracker.jpg" alt="css logo">
+                <div class="text">
+                    <h2>Weekly Expense Tracker</h2>
+                    <p class="description">With the use of a text file, the programme is able to gather details of the
+                        users spending habits throughout the week and categorise them by day and category which is
+                        decided on through the users personal description for each expense entry. The user can then
+                        use a menu interface to generate various structured reports of their spending, and access the total spend
+                        in each category via a table report and a bar chart, and the total spend that week. This can give vital
+                        insight on the users spending habits allowing them to manage and monitor their spending habits.</p>
+                    <br>
+                    <a href="https://github.com/jwiraszka/Weekly_Finance_Tracker">Check It Out</a>
+                </div>
+            </div>
+            <br>
+        </div>
+    </article>
+
+    <article class="education" id="education">
+        <div class="content">
+            <h1 class="title hidden">EDUCATION</h1>
+            <section class="hidden">
+                <p class="section_title">BSC IN COMPUTING SCIENCE</p>
+                <p class="establishment">ULSTER UNIVERSITY | 2022-2026</p>
+                <div class="element">
+                    <h3 class="subtitle">YEAR 1</h3>
+                    <p><strong>AVERAGE: First-Class Honours</strong></p>
+                    <ul>
+                        <li>Database Systems 75%</li>
+                        <li>Interactive Web Authoring 85%</li>
+                        <li>Programming I (Python) 47%</li>
+                        <li>Computer Technology 92%</li>
+                        <li>Systems Software 66%</li>
+                        <li>Programming II (Java) 82%</li>
+                    </ul>
+                    <br><br>
+                </div>
+
+                <div class="element">
+                    <h3 class="subtitle">YEAR 2</h3>
+                    <p><strong>Upcoming Modules</strong></p>
+                    <ul>
+                        <li>Computer Networks</li>
+                        <li>Software Production & Process Management</li>
+                        <li>Professional Development</li>
+                        <li>Programming In Practice (Java)</li>
+                        <li>Systems Security</li>
+                        <li>Mathematics For Computing</li>
+                        <li>Server-Side Development</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="hidden">
+                <p class="section_title">A-LEVEL'S</p>
+                <p class="establishment">BALLYMENA ACADEMY | 2020-2022</p>
+                <div class="element">
+                    <h3 class="subtitle">A-Level's x3</h3>
+                    <ul>
+                        <li>A - Art and Design</li>
+                        <li>A - Classical Civilisation</li>
+                        <li>C - Physics</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="hidden">
+                <p class="section_title">GCSE AND BTEC</p>
+                <p class="establishment">ST PATRICK’S COLLEGE, BALLYMENA | 2018-2020</p>
+                <div class="element">
+                    <h3 class="subtitle">GCSE's x9</h3>
+                    <ul>
+                        <li>B - Mathematics</li>
+                        <li>A* - English Language</li>
+                        <li>A* - English Literature</li>
+                        <li>Additionally: 1x A*, 2x A's and 3x B's GCSE's</li>
+                    </ul>
+                    <h3 class="subtitle">BTEC x1</h3>
+                    <ul>
+                        <li>Distinction - Information And Creative Technology</li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+    </article>
+
+    <article class="contact" id="contact">
+        <h2 class="title hidden">CONTACT ME</h2>
+        <form class="element hidden" action="https://getform.io/f/71e71b8f-fcea-49a4-87d4-fd99b30c9c39" method="POST">
+            <p>Feel free to contact me if you have an enquiries or would like to get in touch.</p>
+            <input type="text" name="name" placeholder="Name" required>
+            <input type="text" name="email" placeholder="Email" required>
+            <textarea name="message" rows="4" placeholder="Message"></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </article>
+
+    <script defer src="app.js"></script>
+
+    </body>
+</html>

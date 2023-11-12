@@ -1,0 +1,306 @@
+@charset "UTF-8";
+
+html {
+    scroll-behavior: smooth;
+}
+
+/*body styling*/
+body {
+    /*applies background image*/
+    background-color: rgb(0, 0, 0);
+
+    /*font styling*/
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    word-spacing: 7px;
+    letter-spacing: 1.5px;
+}
+
+/*title and subtitle styling*/
+.title {
+    font-size: 50px;
+    font-width: 1000;
+    text-align:center;
+    display: block;
+    padding-top: 60px;
+    padding-bottom: 5px;
+}
+
+.subtitle {
+    font-size: 25px;
+}
+
+/*navigation bar styling*/
+nav {
+
+    border: 10px solid rgb(0, 0, 0);
+    padding-left:15%;
+    padding-right:10%;
+}
+
+nav a {
+    color: rgb(255, 255, 255);
+    text-align:center;
+    padding-left:100px;
+    padding-right:50px;
+    list-style:none;
+    text-decoration:none;
+    box-sizing:border-box;
+}
+
+nav a:hover {
+    color: rgb(114, 119, 120);
+}
+
+/*about me section styling*/
+.aboutme {
+    background-image: url(images/top.jpg);
+    background-attachment: scroll;
+    background-size: 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+    text-align: left;
+    padding-top: 330px;
+    padding-bottom: 350px;
+}
+
+.aboutme p {
+    margin-left: 250px;
+    margin-right: 53%;
+}
+
+.name {
+    font-size: 60px;
+    margin: 0px 53% 0px 250px;
+    font-weight: 1000px;
+}
+
+/*skills section styling*/
+.skills {
+    background-image: url(images/skills_bg.jpg);
+    background-attachment: scroll;
+    background-size: 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+    padding: 10px;
+}
+
+.skills section {
+    margin: 0 20% 900px 23%;
+    margin-right: 20%;
+    align: center;
+}
+
+.skills .subtitle {
+    text-align: center;
+}
+
+.skills .element {
+    float: left;
+    height: 33%;
+    width: 20%;
+    padding: 5px 20px 20px 20px;
+    margin: 40px;
+    text-align: center;
+    font-weight: bold;
+    align: centre;
+}
+
+.skills img {
+    width: 85%;
+    height: 65%;
+    min-width: 150px;
+    border: 5px;
+    border-radius: 40px;
+    align: centre;
+}
+
+/*projects section styling*/
+.projects {
+    background-image: url(images/projects_bg.jpg);
+    background-attachment: scroll;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 1px;
+}
+
+.projects .content{
+    margin-right: 5%;
+    margin-left: 8%;
+}
+
+.projects h2 {
+    font-size: 30px;
+    margin-left: 25px;
+    padding-right: 100px;
+}
+
+.description {
+    font-size: 16px;
+    align-text: left;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.projects a {
+    font-size: 20px;
+    font-weight: 900px;
+    align-text: left;
+    margin-left: 30px;
+    margin-right: 30px;
+    color: rgb(145, 213, 227);
+    text-decoration:none;
+}
+
+.projects .element {
+    display: flex;
+    margin-bottom: 100px;
+    padding-bottom: 14px;
+    padding-right: 200px;
+}
+
+.projects .element img{
+    margin-right: 10px;
+    width: 50%;
+}
+
+
+/*education section styling*/
+.education {
+    background-image: url(images/education_bg.jpg);
+    background-attachment: scroll;
+    background-size: 100%;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    padding-bottom: 10px;
+}
+
+.education .content {
+    margin: 100px 15% 1300px 15%;
+    display: block;
+}
+
+.education section {
+    float: left;
+}
+
+.education .subtitle {
+    color: rgb(145, 213, 227);
+    align: left;
+    font-weight: 24px;
+}
+
+.education .section_title {
+    font-size: 30px;
+    margin: 15px 30px 5px 70px;
+    font-weight: 1000;
+}
+
+.education .establishment {
+    font-size: 20px;
+    margin: 15px 30px 15px 70px;
+    font-weight: 1000;
+}
+
+.education .element {
+    background-color: rgba(0, 0, 0,.8);
+    float: left;
+    padding: 10px 10px 20px 30px;
+    margin: 10px 30px 30px 70px;
+    width: 500px;
+    align: center;
+    border: 5px;
+    border-radius: 40px;
+}
+
+.education li {
+    list-style-type: none;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    border-left: 5px solid rgb(62, 162, 250);
+}
+
+/*contact section styling*/
+.contact {
+    background-image: url(images/bottom.jpg);
+    background-attachment: scroll;
+    background-size: 100%;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
+
+.contact .title {
+    color: rgb(12, 37, 71);
+    font-weight: 900;
+}
+
+form {
+    border: 5px;
+    border-radius: 40px;
+    background-color: rgba(0, 0, 0,.8);
+    width: 35%;
+    margin-left: 33%;
+    margin-right: 35%;
+    padding: 10px 0px 30px 0px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+form p {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+form input, form textarea {
+    border: 0;
+    margin: 10px 50px 10px 50px;
+    padding: 20px;
+    border-radius: 10px;
+    outline: none;
+    background-color: rgb(255, 255, 255);
+    font-size: 16px;
+}
+
+form button {
+    background-color: rgb(145, 213, 227);
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    padding: 15px;
+    outline: none;
+    cursor: pointer;
+    border: 0px;
+    width: 200px;
+    margin: 20px 200px 0px 230px;
+    border-radius: 40px;
+}
+/*scroll transitions*/
+.hidden {
+    opacity: 0;
+    transform: translateY(-50%);
+    transition: all 1s; /* fades element in*/
+    transition-delay: 200ms;
+}
+
+.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.projects .element:nth-child(3) {
+    transition-delay: 400ms;
+}
+
+.projects .element:nth-child(4) {
+    transition-delay: 600ms;
+}
+
+.projects .element:nth-child(5) {
+    transition-delay: 600ms;
+}
